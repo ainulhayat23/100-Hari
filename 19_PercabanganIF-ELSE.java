@@ -12,8 +12,8 @@ public class Main {
         // Struktur IF ELSE 
         // • IF atau bisa disebut JIKA, itu digunakan hanya untuk satu kondisi saja
         // if(Kondisi){
-         //      [Aksi]
-         // }
+        //      [Aksi]
+        // }
         
         // • IF dan Else, itu digunakan pada dua kondisi yang berbeda
         // if(Kondisi){
@@ -37,28 +37,28 @@ public class Main {
         Scanner masuk = new Scanner(System.in);
         System.out.print("Masukkan total belanja : ");
         
-    double total = masuk.nextDouble();
+        double total = masuk.nextDouble();
         System.out.print("Total belanja anda = Rp."+total);
         
         if(total >= 500000){
-            System.out.println("Dapat diskon 20% ");
-    double diskon = 20 * total / 100;
-            total -= diskon;
+        System.out.println("Dapat diskon 20% ");
+        double diskon = 20 * total / 100;
+        total -= diskon;
             
         } else if(total >= 250000){
-           System.out.println("Dapat diskon 15% ");
-    double diskon = 15 * total / 100;
-            total -= diskon;
+          System.out.println("Dapat diskon 15% ");
+          double diskon = 15 * total / 100;
+          total -= diskon;
             
         } else if(total >= 100000){
-            System.out.println("Dapat diskon 10% ");
-    double diskon = 10 * total / 100;
-            total -= diskon;
+          System.out.println("Dapat diskon 10% ");
+          double diskon = 10 * total / 100;
+          total -= diskon;
             
         } else {
-            System.out.println("Tidak dapat diskon");
+          System.out.println("Tidak dapat diskon");
             
-        }System.out.println("Jadi total keseluruhan = Rp."+total);
+        } System.out.println("Jadi total keseluruhan = Rp."+total);
         
         // Mungkin untuk hari pembahasan tentang percabangan
         // IF ELSE jika ada kesalahan mohon untuk dikoreksi
